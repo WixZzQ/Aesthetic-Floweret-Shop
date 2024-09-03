@@ -1,0 +1,521 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'lato' , sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+    transition: all 0.3s ease;
+}
+
+header .container{
+    background-color: rgb(253, 236, 239);
+    background-size: 10% 10%; 
+    height: 35rem;
+}
+
+nav .left .links a:hover{
+    color:#52a7f7;
+    font-size: 20px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px;
+    height: 100px;
+    background-color: #000000;
+    box-shadow: rgba(0, 0, 0, 0.1) 
+    0px 20px 25px -5px, rgba(0, 0, 0, 0.4) 
+    0px 10px 10px -5px ;
+    
+}
+
+nav .left .links{
+    display: flex;
+    gap: 50px;
+    text-align: center;
+}
+
+nav .left .links a{
+    color: #ffffff;
+}
+
+nav .right{
+    display: flex;
+    gap: 10px;
+}
+
+nav .right a{
+    margin-left: 30px;
+}
+
+nav .right .bx.bxs-user{
+    font-size: 20px;
+    padding: 15px;
+}
+
+nav .right .user-icon{
+    margin-left: 5px;
+    font-size: 10px;
+    color: #000;
+    background-color: #ffffff;
+    border-radius: 50%;
+    transform: scale(0.9);
+    transition: all 0.4s ease;
+}
+
+nav .right .user-icon:hover{
+    color: #35c9d9;
+    background-color: #ffffff;
+    font-size: 22px;
+    transform: scale(1.0);
+    transition: all 0.3s ease;
+}
+
+nav .right .search-bar .bx.bx-search{
+    background-color: black;
+    font-size: 35px;
+    color: #ffffff;
+    transition: all 0.3s ease;
+    margin-top: 11px;
+}
+
+nav .right .search-bar .bx.bx-search:hover{
+    font-size: 38px;
+    transition: all 0.3s ease;
+    color: #35c9d9;
+}
+
+.container h1{
+    font-size: 60px;
+    text-align: center;
+    padding-top: 90px;
+    padding-left: 35px;
+    padding-bottom: 30px;
+    margin-left: 2rem;
+    color: #000000;
+    font-weight: 900;
+    text-align: left;
+    text-shadow: #444040 1px 1px 3px;
+}
+
+.container p{
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-left: 2rem;
+    color: #515151;
+    font-weight: 100;
+    text-align: left;
+}
+
+.container button{
+    font-size: 20px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    background-color: #47e25c;
+    color: #ffffff;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    margin-left: 4.1rem;
+    margin-top: 3rem;
+    transition: all 0.3s ease;
+    box-shadow: #000000 5px 5px 1px ;
+}
+
+.container button:hover{
+    background-color: #216ce7;
+    color: #ffffff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 20.5px;
+}
+
+.container img{
+    position: relative;
+    top: -516px;
+    width: 30%;
+    margin-left: 60rem;
+    height: auto;
+}
+
+.container-2 .feature-flowers h1{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 15rem;
+}
+
+.container-2 .feature-flowers > p{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+    line-height: 20px;
+    color: #7e7e7e;
+}
+
+.container-2 .feature-flowers .all-the-flowers{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-right: 6rem;
+}
+
+.container-2 .feature-flowers .all-the-flowers img{
+    width: 200px;
+    transition: all 0.3s ease;
+    margin-top: 8rem;
+}
+
+.container-2 .feature-flowers .all-the-flowers h2{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.container-2 .feature-flowers .all-the-flowers img:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+.container-2 .feature-flowers .all-the-flowers .pink-flowers img{
+    background-color: #ffbbe5;
+    width: 70%;
+    height: auto;
+    border-top-left-radius: 20rem;
+    border-top-right-radius: 20rem;
+    padding: 60px 40px 2px 40px;
+    margin-left: 5rem;
+}
+
+.container-2 .feature-flowers .all-the-flowers .pink-flowers{
+    margin-left: 8.8rem;
+}
+
+.container-2 .feature-flowers .all-the-flowers .pink-flowers h2{
+    color: #684a5d;
+    margin-left: 1.5rem;
+}
+
+.container-2 .feature-flowers .all-the-flowers .bouquet-flowers img{
+    background-color: #fc5e70;
+    width: 80%;
+    height: 390px;
+    border-top-left-radius: 20rem;
+    border-top-right-radius: 20rem;
+    padding: 60px 40px 2px 40px;
+}
+
+.container-2 .feature-flowers .all-the-flowers .bouquet-flowers h2{
+    margin-right: 5rem;
+    color: rgb(118, 31, 31) !important;
+}
+
+.container-2 .feature-flowers .all-the-flowers .yellow-flowers img{
+    background-color: #faffb1;
+    width: 100%;
+    height: 385px;
+    border-top-left-radius: 20rem;
+    border-top-right-radius: 20rem;
+    padding: 60px 40px 2px 40px;
+}
+
+.container-2 .feature-flowers .all-the-flowers .yellow-flowers{
+    margin-right: 7rem;
+}
+
+.container-2 .feature-flowers .all-the-flowers .yellow-flowers h2{
+    margin-right: 0.4rem;
+    color: rgb(128, 128, 0);
+}
+
+.container-2 .service-info{
+    background-color: #dddddd;
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+
+.container-2 .service-info .infos{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+    padding: 3rem;
+}
+
+.container-2 .service-info .infos img{
+    width: 60px;
+    height: auto;
+}
+
+.container-2 .service-info .infos .safe-delivery h2{
+    position: relative;
+    left: -75px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #434343;
+}
+
+.container-2 .service-info .infos .fresh-flowers h2{
+    position: relative;
+    left: -75px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #434343;
+}
+
+.container-2 .service-info .infos .free-support h2{
+    position: relative;
+    left: -35px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #434343;
+}
+
+.container-2 .discounts{
+    background-color: rgb(253, 214, 233);
+    height: 28rem;
+}
+
+.container-2 .discounts > h2{
+    font-size: 30px;
+    text-align: left;
+    padding-top: 10rem;
+    font-weight: 900;
+    margin-left: 22rem;
+}
+
+.container-2 .discounts > p{
+    color: #515151;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 0.5rem;
+    font-weight: 100;
+    margin-right: 24.5rem;
+    line-height: 29px;
+}
+
+.container-2 .discounts > img{
+    display: flex;
+    width: 300px;
+    position: relative;
+    left: 60%;
+    top: -15rem;
+}
+
+.container-2 .discounts  .secondary-btn{
+    font-size: 20px;
+    position: relative;
+    top: -23.7rem;
+    left: 29.5rem;
+    padding: 15px 30px;
+    border-radius: 5px;
+    background-color: #fe54c3;
+    color: #ffffff;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: #000000 5px 5px 1px ;
+}
+
+.container-2 .discounts  .secondary-btn:hover{
+    background-color: #c75f7c;
+    transition: all 0.3s ease;
+    font-size: 22px;
+}
+
+.container-3 h2{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 12rem;
+    font-weight: 500;
+}
+
+.container-3 p{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 1.2rem;
+    line-height: 1.2rem;
+    margin-bottom: 2.8rem;
+    color: rgb(94, 94, 94);
+}
+
+.container-3 .images-flowers{
+    display: flex;
+    gap: 1.8rem;
+    justify-content: center;
+    margin-inline: auto;
+    margin-bottom: 4rem;
+    animation: scroll 5s linear infinite; 
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.container-3 .images-flowers .images-of-flowers-1{
+animation-delay: 3s;
+transition: all 0.3s ease;
+}
+.container-3 .images-flowers .images-of-flowers-2{
+animation-delay: 3s;
+transition: all 0.3s ease;
+}
+.container-3 .images-flowers .images-of-flowers-3{
+animation-delay: 3s;
+transition: all 0.3s ease;
+}
+.container-3 .images-flowers .images-of-flowers-4{
+animation-delay: 3s;
+transition: all 0.3s ease;
+}
+.container-3 .images-flowers .images-of-flowers-5{
+animation-delay: 3s;
+transition: all 0.3s ease;
+}
+.container-3 .images-flowers .images-of-flowers-6{
+animation-delay: 3s;
+transition: all 0.3s ease;
+}
+.container-3 .images-flowers .images-of-flowers-7{
+animation-delay: 3s;
+transition: all 0.3s ease;
+}
+.container-3 .images-flowers .images-of-flowers-8{
+animation-delay: 3s;
+transition: all 0.3s ease;
+}
+.container-3 .images-flowers .images-of-flowers-9{
+animation-delay: 3s;
+transition: all 0.3s ease;
+}
+
+.container-3 .images-flowers img{
+    width:250px;
+}
+
+.container-3 .login-in img{
+    width: 90%;
+    margin-left: 4rem;
+}
+
+.container-3 .login-in h2{
+    position: relative;
+    top: 12rem;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.container-3 .login-in input{
+    position: relative;
+    top: -11rem;
+    left: 18rem;
+    width: 38rem;
+    font-size: 1.5rem;
+    padding: 20px 10px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+
+.container-3 .login-in input::placeholder{
+    color: #cccccc;
+    font-size: 26px;
+}
+
+.container-3 .login-in .third-btn{
+    font-size: 30px;
+    position: relative;
+    top: -11rem;
+    left: 18rem;
+    padding: 15px 30px;
+    border-radius: 5px;
+    background-color: #cbea33;
+    color: #ffffff;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: #000000 5px 5px 1px ;
+    margin-left: 1rem;
+}
+
+.container-3 .login-in .third-btn:hover{
+    background-color: #a4c427;
+    transition: all 0.3s ease;
+    font-size: 30.2px;
+}
+
+footer{
+    margin-top: 10rem;
+}
+
+footer h2{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 4.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: 900;
+}
+
+footer .social-medias{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    transition: all 0.3s ease;
+    gap: 10px;
+    font-size: 20px;
+    color: #cccccc;
+}
+
+footer .social-medias .bx.bxl-facebook:hover{
+    font-size: 25px;
+    background-color: #2b497a;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+    cursor: pointer;
+}
+footer .social-medias .bx.bxl-twitter:hover{
+    font-size: 25px;
+    background-color: #5197ff;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+    cursor: pointer;
+}
+footer .social-medias .bx.bxl-instagram:hover{
+    font-size: 25px;
+    background-color:#d716a1;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+    cursor: pointer;
+}
+footer .social-medias .bx.bxl-linkedin:hover{
+    font-size: 25px;
+    background-color: #2b497a;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+    cursor: pointer;
+}
+footer .social-medias .bx.bxl-youtube:hover{
+    font-size: 25px;
+    background-color: #ff3131;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+footer p{
+    text-align: center;
+}
+
+@keyframes scroll {
+    to{
+       transform: translateX(-25%);
+    }
+}
